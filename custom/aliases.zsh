@@ -22,6 +22,11 @@ alias gsta='git stash apply'
 alias grh='git reset --hard'
 alias grs='git reset --soft'
 alias gcfm='git config --global user.email'
+alias grb='git rebase'
+alias grbc='git rebase --continue'
+alias grbd='git rebase develop'
+alias grbm='git rebase main'
+alias grbr='git rebase release'
 
 # ========== NPM Aliases ==========
 alias ni='npm install'
