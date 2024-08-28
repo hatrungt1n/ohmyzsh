@@ -24,9 +24,12 @@ alias grs='git reset --soft'
 alias gcfm='git config --global user.email'
 alias grb='git rebase'
 alias grbc='git rebase --continue'
+alias grba='git rebase --abort'
 alias grbd='git rebase develop'
 alias grbm='git rebase main'
 alias grbr='git rebase release'
+alias gbr='git branch'
+alias gbrd='git branch -d'
 
 # ========== NPM Aliases ==========
 alias ni='npm install'
@@ -55,4 +58,5 @@ alias dp='docker ps'
 # ========== OTHER Aliases ==========
 alias clr='clear'
 alias co='code .'
+alias op='open .'
 alias zre='source ~/.zshrc'
